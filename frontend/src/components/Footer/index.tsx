@@ -7,7 +7,7 @@ function Footer() {
             <a href="https://www.maickel.ca/" 
             className="link-light" 
             target="_blank"
-             rel="noreferrer">Maickel Siqueira</a>
+             rel="noreferrer"> Maickel Siqueira</a>
             </small>
         </p>
       </div>

@@ -4,7 +4,6 @@ import DataTable from 'components/DataTable'
 import BarChart from 'components/BarChart';
 import DonutChart from 'components/DonutChart';
 
-
 function App() {
   return (
     <>
@@ -13,11 +12,11 @@ function App() {
         <div className="container">
           <h1 className="text-primary py-2">Sales Dashboard</h1>
           <div className="row px-2">
-            <div className="col-sm-6">
+            <div className="col-sm-12 col-md-6 ">
               <div className="h4 text-secondary text-center">Success rate</div>
               <BarChart />
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-12 col-md-6 ">
               <div className="h4 text-secondary text-center">All sales</div>
               <DonutChart />
             </div>

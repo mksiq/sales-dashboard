@@ -12,9 +12,7 @@ function App() {
         <NavBar />
         <div className="container">
           <h1 className="text-primary py-2">Sales Dashboard</h1>
-
           <div className="row px-2">
-            
             <div className="col-sm-6">
               <div className="h4 text-secondary text-center">Success rate</div>
               <BarChart />
@@ -23,16 +21,12 @@ function App() {
               <div className="h4 text-secondary text-center">All sales</div>
               <DonutChart />
             </div>
-
           </div>
           <div className="py-3">
             <h2 className="text-Primary">All Sales</h2>
             <DataTable />
           </div>
-
-          
-        </div>
-      
+        </div>      
       </div>
       <Footer />
     </>

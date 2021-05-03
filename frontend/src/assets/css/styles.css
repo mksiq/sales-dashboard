@@ -4,6 +4,7 @@
   --color-primary: #23049d;
   --color-secondary: #aa2ee6;
   --color-danger: #cf0000;
+  --color-light: #ffdf6b;
 }
 
 html,
@@ -45,4 +46,8 @@ body {
 .footer {
   flex-shrink: 0;
   text-align: center;
+}
+
+a.link-light {
+  color: var(--color-light) !important;
 }

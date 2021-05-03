@@ -1,0 +1,48 @@
+/* https://colorhunt.co/palette/273259 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+:root {
+  --color-primary: #23049d;
+  --color-secondary: #aa2ee6;
+  --color-danger: #cf0000;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important;
+}
+
+.text-secondary {
+  color: var(--color-secondary) !important;
+}
+
+.text-danger {
+  color: var(--color-danger) !important;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 INSERT INTO tb_salesman(name) VALUES ('Constantine');
 INSERT INTO tb_salesman(name) VALUES ('Augustus');
 INSERT INTO tb_salesman(name) VALUES ('Gaius');
-INSERT INTO tb_salesman(name) VALUES ('Kal-El');
+INSERT INTO tb_salesman(name) VALUES ('Nero');
 INSERT INTO tb_salesman(name) VALUES ('Julius Caesar');
 INSERT INTO tb_sale(salesman_id,visited_customers,deals,amount,date) VALUES (5,114,71,22274.0,'2021-03-15');
 INSERT INTO tb_sale(salesman_id,visited_customers,deals,amount,date) VALUES (3,127,96,19284.0,'2021-03-14');

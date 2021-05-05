@@ -6,6 +6,14 @@ Project to manage sales
 
 Project created with [Spring](https://spring.io/) to serve as an API. For database it will use [PostgreSQL](PostgreSQL)
 
+### To run
+Build program with maven
+
+### Acess H2 DB
+
+> access: http://localhost:8080/h2-console \
+> change url to: jdbc:h2:mem:testdb
+
 ## Frontend
 
 Project created with [React](https://github.com/facebook/create-react-app), [Bootstrap](https://getbootstrap.com/) and [ApexCharts](https://apexcharts.com/).

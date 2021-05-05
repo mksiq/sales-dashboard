@@ -1,0 +1,5 @@
+# Get all sellers
+GET http://localhost:8080/salesmen
+Content-Type: application/json
+
+{}

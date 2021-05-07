@@ -77,6 +77,21 @@ Get the total of sales amount by salesman. Returned object:
  ]
 ```
 
+>/sales/success-by-salesman
+
+Get the total of visited customers and deals close amount by salesman. Returned object:
+
+```json
+[
+  {
+    "salesman": "Augustus",
+    "deals": 1028,
+    "visitedCustomers": 2396
+  }, ...
+ ]
+```
+
+
 ### To run
 Build program with maven
 

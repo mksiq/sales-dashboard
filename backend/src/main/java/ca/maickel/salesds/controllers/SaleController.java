@@ -1,6 +1,7 @@
 package ca.maickel.salesds.controllers;
 
 import ca.maickel.salesds.dto.SaleDTO;
+import ca.maickel.salesds.dto.SaleSuccessDTO;
 import ca.maickel.salesds.dto.SaleSumDTO;
 import ca.maickel.salesds.repositories.SalesmanRepository;
 import ca.maickel.salesds.services.SaleService;
@@ -26,7 +27,12 @@ public class SaleController {
     }
 
     @GetMapping(value = "/total-by-salesman")
-    public ResponseEntity<List<SaleSumDTO>> findAll(){
+    public ResponseEntity<List<SaleSumDTO>> totalBySalesman(){
         return ResponseEntity.ok(saleService.totalBySalesman());
+    }
+
+    @GetMapping(value = "/success-by-salesman")
+    public ResponseEntity<List<SaleSuccessDTO>> successBySalesman(){
+        return ResponseEntity.ok(saleService.successBySalesman());
     }
 }

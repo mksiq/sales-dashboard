@@ -1,6 +1,7 @@
 package ca.maickel.salesds.services;
 
 import ca.maickel.salesds.dto.SaleDTO;
+import ca.maickel.salesds.dto.SaleSuccessDTO;
 import ca.maickel.salesds.dto.SaleSumDTO;
 import ca.maickel.salesds.repositories.SaleRepository;
 import ca.maickel.salesds.repositories.SalesmanRepository;
@@ -34,5 +35,11 @@ public class SaleService {
     public List<SaleSumDTO> totalBySalesman(){
         salesmanRepository.findAll();
         return saleRepository.totalBySalesman();
+    }
+
+    @Transactional(readOnly = true)
+    public List<SaleSuccessDTO> successBySalesman(){
+        salesmanRepository.findAll();
+        return saleRepository.successBySalesman();
     }
 }

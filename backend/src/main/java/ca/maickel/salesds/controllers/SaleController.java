@@ -3,7 +3,6 @@ package ca.maickel.salesds.controllers;
 import ca.maickel.salesds.dto.SaleDTO;
 import ca.maickel.salesds.dto.SaleSuccessDTO;
 import ca.maickel.salesds.dto.SaleSumDTO;
-import ca.maickel.salesds.repositories.SalesmanRepository;
 import ca.maickel.salesds.services.SaleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

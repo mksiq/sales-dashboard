@@ -6,24 +6,25 @@ Project to manage sales
 
 Project created with [Spring](https://spring.io/) to serve as an API. For database it will use [PostgreSQL](PostgreSQL)
 
+Backend running on [Heroku](https://salesds.herokuapp.com/)
 
 ### Routes available
 
 #### Salesman
 
->/salesmen)
+> /salesmen)
 
 Get all salesmen. Returned object:
 
 ```json
  [
-    { "id": 12, "name": "Marcus Aurelius" }, ...
+    { "id": 12, "name": "Marcus Aurelius" }
  ]
 ```
 
 #### Sales
 
->/sales)
+> /sales)
 
 Get all sales. Returned object:
 
@@ -39,12 +40,11 @@ Get all sales. Returned object:
       "id": 5,
       "name": "Julius Caesar"
     }
-  }, ...
+  }
  ]
 ```
 
-
->/sales)
+> /sales)
 
 Get a pageable of sales. Returned object for /sales?page=2&size=15&sort=date,desc:
 
@@ -60,11 +60,11 @@ Get a pageable of sales. Returned object for /sales?page=2&size=15&sort=date,des
       "id": 5,
       "name": "Julius Caesar"
     }
-  }, ...
+  }
  ]
 ```
 
->/sales/total-by-salesman)
+> /sales/total-by-salesman)
 
 Get the total of sales amount by salesman. Returned object:
 
@@ -73,11 +73,11 @@ Get the total of sales amount by salesman. Returned object:
   {
     "salesman": "Constantine",
     "value": 220426.0
-  }, ...
+  }
  ]
 ```
 
->/sales/success-by-salesman
+> /sales/success-by-salesman
 
 Get the total of visited customers and deals close amount by salesman. Returned object:
 
@@ -87,12 +87,12 @@ Get the total of visited customers and deals close amount by salesman. Returned 
     "salesman": "Augustus",
     "deals": 1028,
     "visitedCustomers": 2396
-  }, ...
+  }
  ]
 ```
 
-
 ### To run
+
 Run both sql scripts located on resources
 Build program with maven
 

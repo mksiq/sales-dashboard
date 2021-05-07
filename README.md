@@ -9,7 +9,7 @@ Project created with [Spring](https://spring.io/) to serve as an API. For databa
 ### To run
 Build program with maven
 
-### Acess H2 DB
+### Access H2 DB for testing database
 
 > access: http://localhost:8080/h2-console \
 > change url to: jdbc:h2:mem:testdb

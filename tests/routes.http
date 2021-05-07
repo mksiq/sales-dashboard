@@ -1,5 +1,17 @@
 # Get all sellers
-GET http://localhost:8080/salesmen
+# GET http://localhost:8080/salesmen
+# Content-Type: application/json
+
+# {}
+
+#Get fisrt page of sales
+# GET http://localhost:8080/sales
+# Content-Type: application/json
+
+# {}
+
+#Get a third page of sales with 15 items per page sorted desc wby date
+GET http://localhost:8080/sales?page=2&size=15&sort=date,desc
 Content-Type: application/json
 
 {}

@@ -11,7 +11,12 @@
 # {}
 
 #Get a third page of sales with 15 items per page sorted desc wby date
-GET http://localhost:8080/sales?page=2&size=15&sort=date,desc
+# GET http://localhost:8080/sales?page=2&size=15&sort=date,desc
+# Content-Type: application/json
+
+# {}
+
+GET http://localhost:8080/sales/total-by-salesman
 Content-Type: application/json
 
 {}

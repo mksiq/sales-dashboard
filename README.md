@@ -93,6 +93,7 @@ Get the total of visited customers and deals close amount by salesman. Returned 
 
 
 ### To run
+Run both sql scripts located on resources
 Build program with maven
 
 ### Access H2 DB for testing database

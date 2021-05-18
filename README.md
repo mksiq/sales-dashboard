@@ -107,7 +107,7 @@ Project created with [React](https://github.com/facebook/create-react-app), [Boo
 
 ### Running on
 
-[Website](mcksiq-sales-dashboard.netlify.app)
+[Website](https://mcksiq-sales-dashboard.netlify.app)
 
 ### Available Scripts
 

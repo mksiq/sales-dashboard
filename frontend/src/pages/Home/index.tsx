@@ -6,7 +6,7 @@ import axios from 'axios';
 function Home() {
   (async () => {
     // Just to wake up the API before hand so the user doesn't need to wait as much
-    const res = await axios.get(`${BASE_URL}/sales?page=1&size=1&sort=date,desc`);
+    await axios.get(`${BASE_URL}/sales?page=1&size=1&sort=date,desc`);
   })();
 
   return (
